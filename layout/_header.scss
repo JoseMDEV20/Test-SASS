@@ -1,0 +1,37 @@
+@use "../config/variables" as v;
+
+header {
+    background-color: v.$bg-header;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    .branding {
+        .img {
+            max-width: 50px;
+            width: auto;
+            display: block;
+        }
+    }
+
+    .menu {
+        display: flex;
+
+        li {
+            font-weight: bold;
+            margin-left: 24px;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
