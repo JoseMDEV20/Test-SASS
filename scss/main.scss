@@ -1,9 +1,9 @@
-@use "config/variables";
-@use "layout/global";
-@use "layout/header";
-@use "layout/products";
+@use "../config/variables";
+@use "../layout/global";
+@use "../layout/header";
+@use "../layout/products";
 
-// Responsividade
+
 @media screen and (max-width: 1023px) {
     .container {
         max-width: 80%;
